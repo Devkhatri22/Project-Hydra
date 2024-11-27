@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-gradient{
+        @apply bg-gradient-to-r from-violet-951 to-purple-951 text-transparent bg-clip-text;
+    }
+    .flexCenter{
+        @apply flex justify-center items-center md:flex-row flex-col;
+    }
+}
